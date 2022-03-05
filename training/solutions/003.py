@@ -23,5 +23,6 @@ def element_max(list, start=0, end=None):
 
 
 print(element_max(list)) # Returns 9
+print(element_max(list, 3, 6)) # Returns 7
     
     

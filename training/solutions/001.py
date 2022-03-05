@@ -10,7 +10,7 @@ Par exemple, si on veut obtenir 8, le programme va trouver :
 def two_dices(number:int) -> list:
 
     # Guards
-    if number > 12:
+    if number < 2 or number > 12:
         print(f'{number} is not between 2 and 12')
         return
 
@@ -22,8 +22,6 @@ def two_dices(number:int) -> list:
                 results.append((i, j))
 
     return results
-
-
 
 print(two_dices(8))
 

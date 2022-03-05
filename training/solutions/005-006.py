@@ -13,6 +13,7 @@ Instancier deux comptes différents, et réaliser des opérations dessus.
 
 """
 class BankAccount():
+    # Construteur
     def __init__(self, name:str='John', balance:float=1000):
         self.name = name
         self.balance = balance
